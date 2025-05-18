@@ -63,6 +63,9 @@ npm install
     npm run dev
  ```
 
+
+### Sample Output during Development Phase
+
 ![image](https://github.com/user-attachments/assets/e2182a1a-f237-4da9-8834-87d7e51a40e0)
 
 ![image](https://github.com/user-attachments/assets/df5f90d7-24dc-4e10-817a-8db784d543bd)
@@ -92,20 +95,6 @@ npm install
   "title": "string (required)",
   "message": "string (required)",
   "metadata": "object (optional)"
-}
-Example Response (201 Created):
-
-json
-{
-  "message": "Notification queued for sending",
-  "notification": {
-    "_id": "65a1b2c3d4e5f6g7h8i9j0k",
-    "userId": "user123",
-    "type": "email",
-    "title": "Test",
-    "message": "Hello World",
-    "status": "pending"
-  }
 }
 ```
 
